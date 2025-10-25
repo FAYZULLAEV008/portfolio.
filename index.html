@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mening Portfolio Saytim</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f1724, #1b263b);
+      color: #e6eef8;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #0b1320;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      color: #1fb6ff;
+      font-size: 22px;
+    }
+
+    header nav a {
+      color: #e6eef8;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    header nav a:hover {
+      color: #1fb6ff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .intro img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 3px solid #1fb6ff;
+    }
+
+    .intro-text h2 {
+      color: #1fb6ff;
+      font-size: 26px;
+    }
+
+    .intro-text p {
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    .skills {
+      margin-top: 60px;
+    }
+
+    .skills h3 {
+      color: #1fb6ff;
+      margin-bottom: 15px;
+    }
+
+    .skill-list {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      background: #131e2f;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .projects {
+      margin-top: 60px;
+    }
+
+    .projects h3 {
+      color: #1fb6ff;
+      margin-bottom: 15px;
+    }
+
+    .project-item {
+      background: #131e2f;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      transition: 0.3s;
+    }
+
+    .project-item:hover {
+      background: #18263a;
+      transform: translateY(-4px);
+    }
+
+    .project-item a {
+      color: #1fb6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project-item a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #0b1320;
+      text-align: center;
+      padding: 15px;
+      color: #aaa;
+      margin-top: 60px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Foziljon Fayzullayev</h1>
+    <nav>
+      <a href="#about">Men haqimda</a>
+      <a href="#skills">Ko‘nikmalar</a>
+      <a href="#projects">Loyihalar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section class="intro" id="about">
+      <img src="./123.jpg" alt="Men haqimda">
+      <div class="intro-text">
+        <h2>Salom! Men Foziljonman 👋</h2>
+        <p>
+          Men 17 yoshdaman va dasturlashga juda qiziqaman. HTML, CSS va JavaScript tillarini yaxshi bilaman.
+          Frontend yo‘nalishida o‘zimni rivojlantiryapman. Bundan tashqari ingliz tilini rus tiliga zo‘r tarjima qila olaman.
+          Maqsadim — zamonaviy, foydalanuvchiga qulay va chiroyli saytlar yaratish.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h3>🧠 Ko‘nikmalarim</h3>
+      <div class="skill-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Team Work</div>
+        <div class="skill">Tarjima (EN → RU)</div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+       <div class="project-item">
+        <h4>💻 GitHub Profilim</h4>
+        <p>Mening barcha loyihalarimni quyidagi sahifadan topishingiz mumkin:</p>
+        <a href="https://github.com/FAYZULLAEV008" target="_blank">GitHub: FAYZULLAEV008</a>
+      </div>
+
+      <div class="project-item">
+        <h4>⚙️ TM-WORK Loyihasi</h4>
+        <p>Frontend va jamoaviy ish ko‘nikmalarimni sinovdan o‘tkazgan loyiha.</p>
+        <a href="https://github.com/FAYZULLAEV008/TM-WORK" target="_blank">GitHub: TM-WORK</a>
+      </div>
+
+      <div class="project-item">
+        <h4>🚗 BMW Veb-sayt</h4>
+        <p>BMW kompaniyasi uchun yaratilgan zamonaviy dizaynga ega demo sayt.</p>
+        <a href="https://github.com/FAYZULLAEV008/bmw" target="_blank">GitHub: BMW</a>
+      </div>
+      
+
+      <div class="project-item">
+        <h4>🌐 Kwork Profilim</h4>
+        <p>Freelance ishlari va xizmatlarimni shu sahifada ko‘rishingiz mumkin:</p>
+        <a href="https://kwork.com/user/foziljon_mlbb" target="_blank">Kwork: foziljon_mlbb</a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2025 Foziljon Fayzullayev. Barcha huquqlar himoyalangan.
+  </footer>
+
+</body>
+</html>
